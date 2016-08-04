@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AudioStreamListener</string>
+    <string name="skip_frame">skip frame</string>
+    <string name="volume">volume</string>
+    <string name="probe_network">probe network</string>
+    <string name="stop">stop</string>
+    <string name="nope">nope...</string>
+    <string name="server_found">found server at %1$s</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/top_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="horizontal">
+
+    <AutoCompleteTextView
+        android:id="@+id/address_autocomplete_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:completionThreshold="3"
+        android:digits="0123456789."
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:nextFocusForward="@+id/port_edit_text"
+        android:inputType="number|numberDecimal"/>
+
+    <EditText
+        android:id="@+id/port_edit_text"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        />
+
+</LinearLayout>
